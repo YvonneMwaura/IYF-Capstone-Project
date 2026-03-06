@@ -1,0 +1,34 @@
+
+1. Project Goal (one clear sentence)
+To create a comprehensive digital ecosystem that allows users to discover and purchase products and services while providing a searchable directory for businesses and factories to showcase their operations.
+2. Target Users
+Customers: Individuals looking to buy products or book services.
+Business Owners/Sellers: Small to medium enterprises looking to sell and gain visibility.
+Factory Managers: Industrial entities seeking to list their facilities for B2B partnerships.
+Administrators: Users who manage listings and moderate the platform.
+3. Main Features
+Searchable Directory: Advanced filters to find businesses and factories by category, location, and rating.
+E-commerce Marketplace: A functional shopping cart and checkout system for products and services.
+Detailed Listings: Rich profiles for businesses and factories including photos, descriptions, and contact info.
+Inquiry System: A lead generation form for users to contact factories or service providers directly.
+Review & Rating System: User-generated feedback for all listings.
+4. Pages / Layout
+Home: Featured listings, trending products, and a prominent search bar.
+Marketplace: A grid view of products and services with category sidebars.
+Directory: A list or map view of registered businesses and factories.
+Product/Listing Detail Page: Comprehensive view of a single item or business.
+User Dashboard: For buyers to track orders and for sellers to manage their listings.
+Login/Registration: Secure entry points for different user roles.
+5. UI Style Requirements
+Professional & Trustworthy: Use a clean, corporate color palette (e.g., Navy Blue, Slate Grey, and White).
+Modern & Responsive: Fully functional on mobile, tablet, and desktop.
+Data-Driven: Clear typography and organized tables/grids for easy comparison of business data.
+6. State Management Needs
+Context API: To handle global state such as user authentication status, shopping cart items, and persistent search filters across pages.
+7. Authentication Needs
+Multi-Role Auth: Users must be able to sign up as either a "Buyer" or a "Partner" (Business/Factory).
+Protected Routes: Dashboards and listing management pages should only be accessible to logged-in users with the correct permissions.
+8. Design Constraints
+Mobile-First Design: Ensure the directory is easy to navigate on smartphones.
+Tech Stack: Must be built using React for the frontend and Supabase for the database and authentication.
+Performance: Fast loading times for image-heavy business listings
